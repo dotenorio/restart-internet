@@ -6,7 +6,7 @@ Clique para reiniciar a internet ativa no momento.
 git clone https://github.com/dotenorio/reiniciar-internet.git \
 ~/.local/share/gnome-shell/extensions/reiniciar-internet@dotenorio.gmail.com
 ```
-_**IMPORTANTE:** é preciso reiniciar a interface do GNOME, para isso digite `Alt+F2`, na caixa de texto digite `r` e `Enter`.
+_**IMPORTANTE:** é preciso reiniciar a interface do GNOME, para isso digite `Alt+F2`, na caixa de texto digite `r` e de `Enter`.
 Pronto agora é só clicar no icone para reiniciar a internet._
 
 ### Preview
