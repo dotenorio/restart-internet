@@ -11,4 +11,4 @@ Pronto agora é só clicar no icone para reiniciar a internet._
 
 ### Preview
 ![alt text](exemplo.png "Logo Title Text 1")  
-**É esse ícone com uma flexinha para cada lado**
+**É esse ícone com uma flexinha para cada lado ali no topo**
