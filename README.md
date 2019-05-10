@@ -8,3 +8,7 @@ git clone https://github.com/dotenorio/reiniciar-internet.git \
 ```
 _**IMPORTANTE:** é preciso reiniciar a interface do GNOME, para isso digite `Alt+F2`, na caixa de texto digite `r` e `Enter`.
 Pronto agora é só clicar no icone para reiniciar a internet._
+
+### Preview
+![alt text](exemplo.png "Logo Title Text 1")  
+**É esse ícone com uma flexinha para cada lado**
