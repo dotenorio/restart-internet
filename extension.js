@@ -55,7 +55,9 @@ function _showLabel () {
     Mainloop.timeout_add_seconds(1, _restartNetwork);
 }
 
-function init () {
+function init () {}
+
+function enable () {
     button = new St.Bin({ style_class: 'panel-button',
                           reactive: true,
                           can_focus: true,
@@ -64,12 +66,9 @@ function init () {
                           track_hover: true });
     let icon = new St.Icon({ icon_name: 'network-transmit-symbolic',
                              style_class: 'system-status-icon' });
-
+    
     button.set_child(icon);
     button.connect('button-press-event', _showLabel);
-}
-
-function enable () {
     Main.panel._rightBox.insert_child_at_index(button, 0);
 }
 
