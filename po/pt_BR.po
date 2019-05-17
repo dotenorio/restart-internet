@@ -28,4 +28,4 @@ msgstr "Deu erro :("
 
 #: extension.js:55
 msgid "Restarting internet..."
-msgstr "Reiniciando internet"
+msgstr "Reiniciando internet..."
