@@ -6,6 +6,12 @@ const libnm_glib = imports.gi.GIRepository.Repository.get_default().is_registere
 const NM = libnm_glib ? imports.gi.NMClient : imports.gi.NM;
 const NetworkManager = libnm_glib ? imports.gi.NetworkManager : NM;
 
+// i18n
+const Gettext = imports.gettext;
+Gettext.textdomain('reiniciar-internet');
+Gettext.bindtextdomain('reiniciar-internet', imports.misc.extensionUtils.getCurrentExtension().path + "/locale");
+const _ = Gettext.gettext;
+
 let label, button;
 
 function _hideLabel () {
@@ -25,13 +31,13 @@ function _restartNetwork () {
             null, 
             null,
             function () {
-                label.text = 'Sucesso!!';
+                label.text = _('Success!!');
                 _setLabelPosition();
             }
         );
     } catch (e) {
         log(e);
-        label.text = 'Deu erro :(';        
+        label.text = _('Got error :(');        
         _setLabelPosition();
     }
     Mainloop.timeout_add_seconds(2, _hideLabel);
@@ -46,7 +52,7 @@ function _setLabelPosition () {
 
 function _showLabel () {
     if (!label) {
-        label = new St.Label({ style_class: 'label', text: "Reiniciando Internet.." });
+        label = new St.Label({ style_class: 'label', text: _('Restarting internet...') });
         Main.uiGroup.add_actor(label);
     }
 
