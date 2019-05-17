@@ -1,14 +1,17 @@
-# Reiniciar Internet
-Clique para reiniciar a internet ativa no momento.
+# Restart Internet
+Click to restart active internet in the moment
 
-## Para instalar use o seguinte comando:
+## GNOME Shell Extension
+https://extensions.gnome.org/extension/1846/reiniciar-internet/
+
+## To install manually use the following command:
 ```
 git clone https://github.com/dotenorio/reiniciar-internet.git \
 ~/.local/share/gnome-shell/extensions/reiniciar-internet@dotenorio.gmail.com
 ```
-_**IMPORTANTE:** é preciso reiniciar a interface do GNOME, para isso digite `Alt+F2`, na caixa de texto digite `r` e de `Enter`.
-Pronto agora é só clicar no icone para reiniciar a internet._
+_**IMPORTANT:** you must restart the GNOME interface by typing `Alt + F2`, in the text box type` r` and `Enter`.
+Ready now just click on the icon to restart the internet._
 
 ### Preview
 ![alt text](exemplo.png "Logo Title Text 1")  
-**É esse ícone com uma flexinha para cada lado ali no topo**
+**It's this icon with a flex for each side there at the top**
